@@ -18,7 +18,7 @@ bench = []
 match_validation = []
 
 [dependencies]
-ahash = "0.8.7"
+ahash = "0.8.6"
 # Overriding with fix repo due to: https://github.com/seiflotfy/rust-farmhash/pull/16
 farmhash = { git = "https://github.com/fuchsnj/rust-farmhash", rev = "82d80b689d65fbd378b13deff10cdd07794df64e" }
 nom = "7.1.3"
